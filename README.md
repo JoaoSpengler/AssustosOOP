@@ -1,3 +1,3 @@
 # AssustosOOP
 
-Repositório para os assuntos da matéria de Sistemas Operacionais
+Repositório para os assuntos da matéria de OOP
