@@ -9,7 +9,7 @@ Glossário para o estudo dos conceitos aplicados à matéria de Programação Or
    * [Construtor](#construtor)
    * [Instanciação](#instanciação)
    * [Encapsulamento](#encapsulamento)
-   * [Getters / Setters](#getters-/-setters)
+   * [Getters / Setters](#getters-setters)
    * [Assinatura de Método](#assinatura-de-método)
    * [Sobrecarga de Método](#sobrecarga-de-método)
    * [Escopo de classe](#escopo-de-classe)
@@ -68,15 +68,68 @@ public class ExemploInstanciacao {
 ```
 ## Encapsulamento
 
+ O objetivo do encapsulamento é ocultar os atributos de uma classe, protegendo o estado de cada objeto. É considerado um dos princípios da programação orientada à objetos.
+
 ## Getters / Setters
+
+São métodos de uma classe utilizados para aplicar os princípios do encapsulamento. Os *getters* servem para recuperar os atributos da classe e os *setters* servem para alterar/atribuir valores ao atributos.
+
+**Exemplo:**
+
+```java
+public class Conta{
+	private double saldo;
+	
+	public double getSaldo(){
+		return this.saldo;
+	}
+
+	public void setSaldo(double novoSaldo){
+		saldo = novoSaldo;
+	}
+
+}
+```
 
 ## Assinatura de Método
 
+A assinatura de método é uma forma de definir a "identidade" e exclusividade daquele método. Ela é composta, geralmente, pelo nome, tipo de retorno, tipo de parâmetros, quantidade de parâmetros e suas visibilidades.
+
 ## Sobrecarga de Método
 
+A sobrecarga de método é quando se tem diversos métodos com o mesmo nome porem eles diferem nos tipos e quantidades de parâmetros e seus retornos.
+
+**Exemplo:**
+
+```java
+public class FazAlgumaCoisa{
+	public int fazAlgo(int num1, int num2){
+		//Faz alguma operação
+	}
+	public double fazAlgo(double num3){
+		//Faz alguma operação
+	}
+}
+```
 ## Escopo de Classe
 
+No escopo de classe o atributo/método pertence apenas à classe em que ele foi definido. No java se utiliza a palavra *static* para representar o escopo de classe.
+
+**Exemplo:**
+```java
+public class EscopoClasse{
+	public static int valor = 42;
+
+	public static void bar(){
+		//Realiza alguma operação
+	}
+	
+}
+
+```
 ## Escopo de Objeto
+
+Quando um atributo/método em uma classe não é definido com o *static* ele é considerado pertencendo ao escopo de objeto. Por padrão os componentes da classe são considerados escopos de objeto.
 
 ## Palavras Reservadas
 
@@ -162,8 +215,20 @@ final class Final{
 
 ### Relacionamento de Dependência
 
+É quando um uma classe necessita da instância de outra classe para que ela possa realizar suas operações.
+
 ### Relacionamento de Agregação
+
+Num relacionamento de Agregação, uma classe pode ser composta por outras classes, porém essas classes adjacentes não deixam de existir se a classe principal seja "apagada".
+
+**Exemplo UML:**
+
+<img align="center" src="Programação Orientada a Objetos/agregacao.png">
 
 ### Relacionamento de Composição
 
+O relacionamento de composição é parecido com o de agregação, porem neste tipo de relacionamento, se a classe principal deixar de existir a outras adjacentes também são apagadas. 
 
+**Exemplo UML:**
+
+<img align="center" src="\Programação Orientada a Objetos\composicao.png">
