@@ -234,4 +234,5 @@ Num relacionamento de Agregação, uma classe pode ser composta por outras class
 O relacionamento de composição é parecido com o de agregação, porem neste tipo de relacionamento, se a classe principal deixar de existir a outras adjacentes também são apagadas. 
 
 **Exemplo UML:**
+
 ![Alt text](https://i.stack.imgur.com/iBdxi.png "Exemplo agregação")
