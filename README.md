@@ -217,18 +217,21 @@ final class Final{
 
 É quando um uma classe necessita da instância de outra classe para que ela possa realizar suas operações.
 
+**Exemplo UML:**
+
+![Alt text](http://blogedsonbelem.com.br/blog/java/img/uml03.jpg "Exemplo agregação")
+
 ### Relacionamento de Agregação
 
 Num relacionamento de Agregação, uma classe pode ser composta por outras classes, porém essas classes adjacentes não deixam de existir se a classe principal seja "apagada".
 
 **Exemplo UML:**
 
-<img align="center" src="Programação Orientada a Objetos/agregacao.png">
+![Alt text](https://i.imgur.com/GkJTUr0.gif "Exemplo agregação")
 
 ### Relacionamento de Composição
 
 O relacionamento de composição é parecido com o de agregação, porem neste tipo de relacionamento, se a classe principal deixar de existir a outras adjacentes também são apagadas. 
 
 **Exemplo UML:**
-
-<img align="center" src="\Programação Orientada a Objetos\composicao.png">
+![Alt text](https://i.stack.imgur.com/iBdxi.png "Exemplo agregação")
