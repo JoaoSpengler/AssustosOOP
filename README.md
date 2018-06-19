@@ -9,7 +9,7 @@ Glossário para o estudo dos conceitos aplicados à matéria de Programação Or
    * [Construtor](#construtor)
    * [Instanciação](#instanciação)
    * [Encapsulamento](#encapsulamento)
-   * [Getters / Setters](#getters-setters)
+   * [Getters e Setters](#getters-setters)
    * [Assinatura de Método](#assinatura-de-método)
    * [Sobrecarga de Método](#sobrecarga-de-método)
    * [Escopo de classe](#escopo-de-classe)
@@ -18,7 +18,7 @@ Glossário para o estudo dos conceitos aplicados à matéria de Programação Or
       * [Palavra reservada new](#palavra-reservada-new)
       * [Palavra reservada instanceof](#palavra-reservada-instanceof)
       * [Palavra reservada this](#palavra-reservada-this)
-      * [Palavra reservada public/private](#palavra-reservada-public-private)
+      * [Palavra reservada public e private](#palavra-reservada-public-e-private)
       * [Palavra reservada final](#palavra-reservada-final)
    * [Relacionamentos](#relacionamentos)
       * [Relacionamento de Dependência](#relacionamento-de-dependência)
@@ -70,7 +70,7 @@ public class ExemploInstanciacao {
 
  O objetivo do encapsulamento é ocultar os atributos de uma classe, protegendo o estado de cada objeto. É considerado um dos princípios da programação orientada à objetos.
 
-## Getters / Setters
+## Getters e Setters
 
 São métodos de uma classe utilizados para aplicar os princípios do encapsulamento. Os *getters* servem para recuperar os atributos da classe e os *setters* servem para alterar/atribuir valores ao atributos.
 
@@ -183,7 +183,7 @@ public class Conta{
 }
 ```
 
-### Palavra reservada *Public / Private*
+### Palavra reservada *Public e Private*
 
 Palavras utilizadas para definir a visibilidade de atributos/métodos/classes. O *public* define que a visibilidade é aberta para todo o sistema e para as outras classes, sendo possível sofrer alterações de suas características por meios externos.  O *private* define que apenas aquele classe tem visibilidade dessas características e somente ela pode realizar alterações.
 
