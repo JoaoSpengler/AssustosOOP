@@ -9,7 +9,7 @@ Glossário para o estudo dos conceitos aplicados à matéria de Programação Or
    * [Construtor](#construtor)
    * [Instanciação](#instanciação)
    * [Encapsulamento](#encapsulamento)
-   * [Getters / Setters](#getters-setters)
+   * [Getters / Setters](#getters-/-setters)
    * [Assinatura de Método](#assinatura-de-método)
    * [Sobrecarga de Método](#sobrecarga-de-método)
    * [Escopo de classe](#escopo-de-classe)
